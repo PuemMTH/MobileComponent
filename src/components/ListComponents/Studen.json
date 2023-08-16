@@ -1,0 +1,25 @@
+{
+    "name": "Tanapat Eiam-arj",
+    "subject": [
+        {
+            "id": 1,
+            "name": "Computer Programming",
+            "score": 100
+        },
+        {
+            "id": 2,
+            "name": "Cooperative Education",
+            "score": 100
+        },
+        {
+            "id": 3,
+            "name": "English",
+            "score": 100
+        },
+        {
+            "id": 4,
+            "name": "Design Thinking",
+            "score": 100
+        }
+    ]
+}
