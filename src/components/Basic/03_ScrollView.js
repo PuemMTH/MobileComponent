@@ -13,6 +13,7 @@ const App = () => {
         style={styles.image}
       />
       <Text style={styles.text}>Hello, React Native!</Text>
+      <Text style={styles.text}>{inputText}</Text>
       <TextInput
         style={styles.input}
         placeholder="Enter text here"

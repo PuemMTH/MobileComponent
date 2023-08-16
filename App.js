@@ -9,7 +9,7 @@ import UserInterface from './src/components/UserInterface/08_UserInterface';
 export default function App() {
   return (
       <>
-        <UserInterface />
+        <ScrollView />
         <StatusBar style="auto" />
       </>
   );
