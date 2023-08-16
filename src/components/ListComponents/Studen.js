@@ -9,7 +9,8 @@ const App = () => {
     <View style={styles.container}>
       <FlatList
         data={data.subject}
-        key={data.subject.id}
+        key={data.subject.id} 
+        keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => <Text style={styles.item}>{item.name}</Text>}
       />
     </View>
