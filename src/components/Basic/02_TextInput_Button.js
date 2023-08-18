@@ -5,12 +5,14 @@ import { View, Image, Text, TextInput, StyleSheet, Button } from 'react-native';
 import { TouchableOpacity } from 'react-native';
 
 const AppText = () => {
-  const [inputText, setInputText] = useState('');
-
+  const [inputText, setInputText] = useState("");
+  // hook
+  
   return (
     <>
       <Text style={styles.text}>Hello, React Native!</Text>
       <Text style={styles.text}>{inputText}</Text>
+
       <TextInput
         style={styles.input}
         placeholder="Enter text here"
@@ -22,7 +24,7 @@ const AppText = () => {
       <Button
         title="Click me"
         onPress={() => {
-          setInputText('You clicked me!');
+          alert('You clicked me!');
         }}
         color={'red'}
       />

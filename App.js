@@ -1,15 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Image from './src/components/Basic/01_Image';
-import AppText from './src/components/Basic/02_TextInput_Button';
-import ScrollView from './src/components/Basic/03_ScrollView';
-import UserInterface from './src/components/UserInterface/08_UserInterface';
+// import Image from './src/components/Basic/01_Image';
+// import AppText from './src/components/Basic/02_TextInput_Button';
+// import ScrollView from './src/components/Basic/03_ScrollView';
+// import UserInterface from './src/components/UserInterface/08_UserInterface';
+
+
+import SingleScreen from './src/components/Screen/SingleScreen';
+
 
 export default function App() {
   return (
       <>
-        <ScrollView />
+        <SingleScreen />
         <StatusBar style="auto" />
       </>
   );
